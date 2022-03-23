@@ -1,9 +1,12 @@
 html {
-    background-color:aquamarine;
+    background-color:lightgreen;
     
 }
 img {
     border-color:azure;
     border-width: 10px;
     border-style:dotted;
+}
+.paaris {
+    color: red;
 }
