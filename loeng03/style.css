@@ -1,0 +1,22 @@
+html {
+font-family: 'Nunito Sans', sans-serif;
+}
+.kogudiv {
+    display: flex; 
+    flex-direction: row;    
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.Kast1, .Kast2, .Kast3  {
+    flex-basis: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 50px;
+    border: 3px;
+    border-style: solid;
+    background-color: rgb(212, 240, 184);
+    border-radius: 10px;
+    margin: 5px;
+  }

@@ -1,12 +1,24 @@
 html {
     background-color:lightgreen;
-    
+    align
 }
 img {
     border-color:azure;
     border-width: 10px;
     border-style:dotted;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .paaris {
     color: red;
+}
+div{
+    background-color: lightgray;
+    background-image: url(https://previews.123rf.com/images/liveincosmos/liveincosmos1802/liveincosmos180200021/96000717-%E6%8A%BD%E8%B1%A1%E7%9A%84%E3%81%AA%E3%83%91%E3%82%B9%E3%83%86%E3%83%AB%E6%B0%B4%E5%BD%A9%E7%94%BB%E3%81%AE%E8%83%8C%E6%99%AF%E3%80%82.jpg)
+    width: 300px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
