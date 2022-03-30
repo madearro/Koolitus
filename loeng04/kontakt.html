@@ -8,31 +8,33 @@
     <title>Koerte värvimine</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-<style>
-    .blink {
-      animation: blink-animation 1s steps(2, start) infinite;
-      -webkit-animation: blink-animation 1s steps(2, start) infinite;
-    }
-    @keyframes blink-animation {
-      to {
-        visibility: hidden;
-      }
-    }
-    @-webkit-keyframes blink-animation {
-      to {
-        visibility: hidden;
-      }
-    }
-</style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <style>
+        .blink {
+            animation: blink-animation 1s steps(2, start) infinite;
+            -webkit-animation: blink-animation 1s steps(2, start) infinite;
+        }
+
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+
+        @-webkit-keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
 </head>
 
 <body>
     <div class="konteiner">
         <header>
             <a href="index.html"><img src="logo.png" width="100"></a>
-                        <h1><span class="blink">Võtke meiega julgesti ühendust!</span></h1>
+            <h1><span class="blink">Võtke meiega julgesti ühendust!</span></h1>
             <div></div>
         </header>
         <nav>
@@ -44,13 +46,25 @@
         <main>
             <section>
                 <h2>Tere tulemast kasutama meie usaldusväärseid teenuseid!</h2>
-                <p>Kuna meil hetkel majanduslikel põhjustel oma pinda ei ole (riik on süüdi), pakume oma teenuseid veebipõhiselt. Võtke meiega julgesti ühendust, rahulolu garanteeritud igale teie koerale! <b>Raha saate kohe üle kanda</b> <a href="https://lugejakiri.ee/martin-repinski-selgitab-ulmelisi-kutusearveid-mul-on-paagis-mitu-auku/"  <span class="blink"><b> SIIA </b></span></a><br>Võtame teiega seejärel kindlasti ühendust!
+                <p>Kuna meil hetkel majanduslikel põhjustel oma pinda ei ole (riik on süüdi), pakume oma teenuseid
+                    veebipõhiselt. Võtke meiega julgesti ühendust, rahulolu garanteeritud igale teie koerale! <b>Raha
+                        saate kohe üle kanda</b> <a
+                        href="https://lugejakiri.ee/martin-repinski-selgitab-ulmelisi-kutusearveid-mul-on-paagis-mitu-auku/"
+                        <span class="blink"><b> SIIA </b></span></a><br>Võtame teiega seejärel kindlasti ühendust!
 
                 </p>
+                <form>
+                    <label>Nimi: </label> <input type="text" <br><br>
+                    <label>Mailiaadress: </label> <input type="text" <br><br>
+                    Teie soovid: <br>
+                    <textarea style="height:50px"></textarea><br>
+                    <input type="submit" value="Saada" <br><br><br>
+                </form>
                 <img src="dog.jpg" width="300">
             </section>
             <aside>
-                <a href="https://lugejakiri.ee/pommuudis-alar-karise-5-puuduolevat-haalt-leiti-mailis-repsi-korterist/"><img src="fm.png" target="_blank"></a>
+                <a href="https://lugejakiri.ee/pommuudis-alar-karise-5-puuduolevat-haalt-leiti-mailis-repsi-korterist/"><img
+                        src="fm.png" target="_blank"></a>
             </aside>
         </main>
         <footer>
