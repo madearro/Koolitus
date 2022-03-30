@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koerte värvimine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+<style>
+    .blink {
+      animation: blink-animation 1s steps(2, start) infinite;
+      -webkit-animation: blink-animation 1s steps(2, start) infinite;
+    }
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+    @-webkit-keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+</style>
+</head>
+
+<body>
+    <div class="konteiner">
+        <header>
+            <a href="index.html"><img src="logo.png" width="100"></a>
+                        <h1><span class="blink">Võtke meiega julgesti ühendust!</span></h1>
+            <div></div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pealeht</a></li>
+                <li><a href="teenused.html">Teenused</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Tere tulemast kasutama meie usaldusväärseid teenuseid!</h2>
+                <p>Kuna meil hetkel majanduslikel põhjustel oma pinda ei ole (riik on süüdi), pakume oma teenuseid veebipõhiselt. Võtke meiega julgesti ühendust, rahulolu garanteeritud igale teie koerale! <b>Raha saate kohe üle kanda</b> <a href="https://lugejakiri.ee/martin-repinski-selgitab-ulmelisi-kutusearveid-mul-on-paagis-mitu-auku/"  <span class="blink"><b> SIIA </b></span></a><br>Võtame teiega seejärel kindlasti ühendust!
+
+                </p>
+                <img src="dog.jpg" width="300">
+            </section>
+            <aside>
+                <a href="https://lugejakiri.ee/pommuudis-alar-karise-5-puuduolevat-haalt-leiti-mailis-repsi-korterist/"><img src="fm.png" target="_blank"></a>
+            </aside>
+        </main>
+        <footer>
+            <div>OÜ Koerte Värvimise Agentuur</div>
+            <nav class="alumine-nav">
+                <ul>
+                    <li><a href="index.html">Pealeht</a></li>
+                    <li><a href="teenused.html">Teenused</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
