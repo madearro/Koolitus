@@ -1,0 +1,60 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+header {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
+}
+
+.pilt {
+    display: flex;
+    width: 30%;
+    margin: 2px;
+}
+
+.pildid1,
+.pildid2,
+.pildid3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.konteiner {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+/* Tableti vaade */
+
+@media screen and (max-width: 1007px) {
+
+    .pildid1,
+    .pildid2 {
+        width: 50%;
+    }
+}
+
+/* Mobiili vaade */
+
+@media screen and (max-width: 640px) {
+
+    .pildid1,
+    .pildid2,
+    .pildid3 {
+        width: 100%;
+    }
+}
