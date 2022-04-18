@@ -1,0 +1,12 @@
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.kogudiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
