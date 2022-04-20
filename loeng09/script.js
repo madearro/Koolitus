@@ -14,7 +14,7 @@ let Kast3 = {
     pilt: './assets/surikaat.jpg',
     pealkiri: '33 armsaimat loomakaamerat',
     tekst: 'Loomad on imelised. Kliki alloleval lingil, kui soovid näha live kaameraid loomaaedadest üle maailma.',
-    link: 'Loe edasi'
+    link: 'https://www.kotkas.ee/klubi/kaamerad'
 }
 
 let Kastid = [Kast1, Kast2, Kast3];
@@ -23,10 +23,10 @@ let sisuHTMLElement = document.getElementById('sisu');
 for (let i=0; i<Kastid.length; i++) {
     sisuHTMLElement.innerHTML +='<div><img src="'+ Kastid[i].pilt +'" width="70" height="50"><div>'+ '<h3>' + Kastid[i].pealkiri + '</h3>'+'</div></div>'+
     '<p>'+ Kastid[i].tekst +'</p>'+
-     '<div>'+ Kastid[i].link + '</div>'+ '<br>';
+    '<a href="'+ Kastid[i].link +'">Loe edasi</a><br>';
 }
 
-
+// '<div>'+ Kastid[i].link + '</div>'
 
 
 
