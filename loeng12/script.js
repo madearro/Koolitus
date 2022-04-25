@@ -9,7 +9,7 @@ saada.addEventListener("click", function () {
       document.getElementById("teade").innerHTML = alert("Palun täida kõik väljad")
     } else {
       document.getElementById("teade").innerHTML = alert("Sõnum saadetud!")
-      console.log(Andmed);
+      console.log(andmed);
       nimeElement.value = '';
       mailiElement.value = '';
       textarea.value = '';
