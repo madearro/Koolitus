@@ -1,0 +1,21 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2.25px;
+}
+
+.container {
+    background-image: url('hills.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 72px 400px;
+}
+
+/*#sonum,*/ #saada    {
+    border-radius: 10px;
+    letter-spacing: 2.25px;
+    cursor: pointer;
+}
+ 

@@ -31,7 +31,7 @@ function renderList() {
     for (let i = 0; i < todos.length; i++) {
         todosListElement.innerHTML += `
             <div class="todo">
-                <div class="todo-title">${todos[i]}</div>
+                <div class="todo-title">${todos[i].title}</div>
                 <div class="todo-delete">x</div>
             </div>
         `;
