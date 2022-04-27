@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    background-image: url('hills.png');
+    background-image: url('./assets/Hills.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

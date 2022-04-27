@@ -5,10 +5,10 @@ let saada = document.getElementById('saada');
 let andmed = [nimeElement.value, mailiElement.value, textarea.value];
 
 saada.addEventListener("click", function () {
-    if (nimeElement.length == 0 || mailiElement.length == 0 || textarea.value == '') {
-      document.getElementById("teade").innerHTML = alert("Palun täida kõik väljad")
+    if (nimeElement.value.length == 0 || mailiElement.value.length == 0 || textarea.value.lentg == 0) {
+      alert("Palun täida kõik väljad")
     } else {
-      document.getElementById("teade").innerHTML = alert("Sõnum saadetud!")
+      alert("Sõnum saadetud!")
       console.log(andmed);
       nimeElement.value = '';
       mailiElement.value = '';
