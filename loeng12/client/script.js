@@ -1,5 +1,4 @@
 const inputField = document.getElementById('input');
-
 let isOperatorLastClicked = false;
 let numbers = [];
 
@@ -16,31 +15,33 @@ const clickedOperator = (operator) => {
     isOperatorLastClicked = true;
     if (operator === '+') {
         numbers.push(inputField.innerHTML);
-        if clickedEquals() {
-            let sum(numbers) => {
-                var summa = 0;
-                for (var i = 0; i < numbers.length; i++) {
-                    summa += numbers[$i];
-                    return summa;
-                    inputField.innerHTML = summa;
-                }
-            }
-
-
-        }
-    } else if (operator === '-') => {
-        isOperatorLastClicked = true;
-
-    }
-    console.log(numbers);
+    } else {
+    alert('Not supported!');
+}
+console.log(numbers);
 }
 
-const clickedEquals = async () => {
+const clickedEquals = () => {
+    numbers.push(inputField.innerHTML);
+    let answer = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        answer += parseInt(numbers[i]);
+    }
+    numbers = [];
+    inputField.innerHTML = answer;
+}
+
+
+const clearInput = () => {
+    inputField.innerHTML = '0';
+    numbers = [];
+}
+
+/*const clickedEquals = async () => {
     numbers.push(inputField.innerHTML);
     console.log('equals!!', numbers);
     const response = await fetch('http://localhost:3000/api/add', {
         method: 'POST',
-        mode: 'no-cors',
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
@@ -50,10 +51,4 @@ const clickedEquals = async () => {
     const answer = await response.json();
     console.log('vastus:', answer);
     input.innerHTML = 'vastus';
-}
-
-const clearInput = () => {
-    inputField.innerHTML = '0';
-    numbers = [];
-
-}
+}*/
