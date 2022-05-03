@@ -5,7 +5,7 @@ let saada = document.getElementById('saada');
 let andmed = [nimeElement.value, mailiElement.value, textarea.value];
 
 saada.addEventListener("click", function () {
-    if (nimeElement.value.length == 0 || mailiElement.value.length == 0 || textarea.value.lentg == 0) {
+    if (nimeElement.value.length == 0 || mailiElement.value.length == 0 || textarea.value.length == 0) {
       alert("Palun täida kõik väljad")
     } else {
       alert("Sõnum saadetud!")
